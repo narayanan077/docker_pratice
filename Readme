@@ -1,0 +1,17 @@
+# Docker Practice Project
+
+This is a simple containerized HTML website using Docker and nginx.
+
+## How to Run
+
+Build image:
+
+docker build -t html-app .
+
+Run container:
+
+docker run -d -p 8080:80 html-app
+
+Open in browser:
+
+http://localhost:8080
